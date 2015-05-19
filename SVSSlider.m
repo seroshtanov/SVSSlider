@@ -37,7 +37,7 @@
     sizeOneDivision = self.frame.size.width / _divisionCount;
     
 
-    
+    if (_enableLables)
     for (int i = 0; i<_divisionCount; i++) {
         
         UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(sizeOneDivision*i, 0, sizeOneDivision, self.frame.size.height)];
@@ -89,6 +89,7 @@
 {
     _value = 0;
     self.backgroundColor = [UIColor whiteColor];
+    _enableLables = YES;
 }
 
 

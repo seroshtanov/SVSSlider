@@ -23,6 +23,7 @@
 @property (nonatomic) int value;
 @property (nonatomic, strong) UIColor *shadowColor;
 @property (strong, nonatomic) id <SVSSliderDelegate> delegate;
+@property (nonatomic) BOOL enableLables;
 
 
 @end
